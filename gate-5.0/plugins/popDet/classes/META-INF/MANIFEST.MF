@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.5.2-20 
+Created-By: 3.5-tree-ssa 20030617 (Red Hat Linux Rawhide 3.5ssa-48) (F
+ ree Software Foundation, Inc.)
+

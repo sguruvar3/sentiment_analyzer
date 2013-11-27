@@ -1,0 +1,13 @@
+<!-- creole.xml popDet -->
+<!--  sguruvar, 20/11/2009 -->
+<!-- $Id: creole.xml 9992 2008-10-31 16:53:29Z ian_roberts $ -->
+
+<!--
+This file just references the JAR file that contains the compiled resource.
+Configuration is contained in the @CreoleResource annotation on 
+com.guru.creole.PopDet.PopularityDeterminer.
+-->
+
+<CREOLE-DIRECTORY>
+  <JAR SCAN="true">popDet.jar</JAR>
+</CREOLE-DIRECTORY>

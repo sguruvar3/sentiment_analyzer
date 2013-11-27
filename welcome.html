@@ -1,0 +1,55 @@
+
+<head>
+<title>Sentiment Analyzer - Logitech
+
+ 
+</title>
+<script type="text/javascript" src="gg.js"></script>
+<script language="javascript">
+function redirectPage(val) {
+     var url = "/SA/SetSessionUser?val="+val;
+     request.open("GET", url, true);
+     request.onreadystatechange = updatePage
+     request.send(null);
+   }
+
+
+   function updatePage() {
+     if (request.readyState == 4) {
+        window.location="/SA/";
+    }
+}
+
+
+</script>
+</head>
+<body  background="images/page_bg.gif">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<table width="100%" border=0 align="center">
+<tr>
+<td width="15%"</td>
+ <td align="center" colspan="2" valign="bottom" >  <img src="images/logo.png"/> </td>
+  <td width="50%"></td>
+</tr>
+<tr><td><br\></td></tr>
+<tr>
+<td width="15%"></td>
+<td width="35%" align="center"  valign="bottom"><img src="images/admin.png" style="cursor:pointer" onclick="javascript:redirectPage('Admin');"/></td>
+<td width="35%" align="center" valign="bottom"><img src="images/user.png" style="cursor:pointer"  onclick="javascript:redirectPage('Guest');"/></td>
+<td width="15%"></td>
+</tr>
+<tr>
+<td width="15%"></td>
+<td width="35%" align="center" valign="top"><img src="images/tadmin.png" 
+     style="cursor:pointer" onclick="javascript:redirectPage('Admin');"/></td>
+<td width="35%" align="center" valign="top"><img src="images/tuser.png" style="cursor:pointer"  onclick="javascript:redirectPage('Guest');"/></td>
+<td width="15%"></td>
+</tr>
+</table>
+</body>
+</html>
+

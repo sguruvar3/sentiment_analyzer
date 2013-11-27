@@ -1,0 +1,14 @@
+<CREOLE-DIRECTORY>
+  <CREOLE>
+    <RESOURCE>
+      <JAR>popDet.jar</JAR>
+      <NAME>This is used to form a Tag Cloud by means of a Counter</NAME>
+      <CLASS>com.guru.creole.PopDet.PopularityDeterminer</CLASS>
+      <COMMENT>Counts how many times a word appears in a sentence</COMMENT>
+
+      <PARAMETER NAME="document" COMMENT="The document to analyse" RUNTIME="true">gate.Document</PARAMETER>
+      <PARAMETER NAME="inputASname" COMMENT="The annotation set to be used for input" OPTIONAL="true" RUNTIME="true">java.lang.String</PARAMETER>
+      <PARAMETER NAME="outputASname" COMMENT="The annotation set to be used for output" OPTIONAL="true" RUNTIME="true">java.lang.String</PARAMETER>
+    </RESOURCE>
+  </CREOLE>
+</CREOLE-DIRECTORY>
