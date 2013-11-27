@@ -3,8 +3,6 @@ Sentiment Analyzer
 
 A sentiment analysis application which analyses the sentiments of any product from Excel/CSV file and brings out a nice "drill down" version of the chart with tag functionality
 
-Summary
-========
 Sentiment analysis, also called opinion mining, is responsible for classifying words, texts or documents of opinion, and emotions or feelings that express agreement. 
 
 It works in tagging texts and their components, which indicate if the expression is positive, negative, or neutral. 
