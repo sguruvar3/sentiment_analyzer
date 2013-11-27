@@ -27,5 +27,5 @@ Demo
 ======
 The demo is available here @ https://github.com/sivaguruvareddiar/SentiAnalyzer/tree/master/Demo
 
-P.S: If asked, open the swf file from your favorite browser What the Demo offers
+P.S: If asked, open the swf file from your favorite browser
 
