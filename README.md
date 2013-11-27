@@ -1,4 +1,4 @@
-SentiAnalyzer
+Sentiment Analyzer
 =============
 
 A sentiment analysis application which analyses the sentiments of any product from Excel/CSV file and brings out a nice "drill down" version of the chart with tag functionality
